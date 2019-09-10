@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<main>
+
+
+<head>
+
+<style>
+    
+body{
+font-family: "Edwardian Script ITC";
+font-size: 36px;
+    -webkit-animation-name: flowingBackground;
+    -webkit-animation-duration: 10s;
+    animation-name: flowingBackground;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    border: none;
+}
+
+@-webkit-keyframes flowingBackground{
+    from{background-color: rgb(245, 255, 255);}
+    to{background-color: rgb(251, 218, 251);}
+}
+
+@keyframes flowingBackground{
+    0%{background-color:rgb(245, 255, 255);}
+    100%{background-color:rgb(251, 218, 251);}
+    }
+
+h1{
+    text-indent: 1em;
+}
+
+.letterPhoto{
+    width: auto;
+    height:auto;
+    display: inline-block;
+
+object-fit: cover;
+border-style:double;
+}
+
+.dateGenericPhoto{
+
+}
+
+#picOne{
+animation-name: picOne;
+animation-duration: 5s;
+animation-delay: 0.5s;
+border-radius: 50%;     
+border-color: teal;
+border-width: 10px;
+border-style:double;
+}
+
+#picTwo{
+    animation-name: picTwo;
+    animation-duration: 3s;
+    border-color:rgb(101, 42, 48);
+    border-width: 5px;
+    border-style:dashed;
+    padding: 5px;
+}
+
+#picThree{
+    animation-name: picThree;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-right: 5em;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(0.3,1.0,0.5,0.5);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-color: white;
+}
+
+@-webkit-keyframes picOne{
+
+}
+
+@keyframes picOne{
+}
+
+@-webkit-keyframes picTwo{
+
+}
+
+@keyframes picTwo{
+    
+}
+
+@-webkit-keyframes picThree{
+
+}
+
+@keyframes picThree{
+0% {opacity:0;}
+1% {filter:grayscale(100%);}
+3% {opacity: 1;}
+100%{filter:grayscale(0%);}
+}
+
+#hikingDatePhoto{
+
+}
+#photoShootDate{
+
+}
+</style>
+
+</head>
+
+<body>
+    
+
+<img style="float:right;" class="letterPhoto" id="picOne" src="/img/proposal/nine.jpg">
+<div> 
+    <!--Kunstler Script Font??-->
+<h1 style="float:left;">Miss Alecia Marie Gerra,</h1>
+
+    <h1 style="float:left;">What a marvelous woman you are! How wondrous and how kind you are. How elegant and magnificent is the way you carry yourself. How extraordinary and admirable your passionate soul. There are many things I wish to tell you, to share with you, and to ask you. I'll try to start with what I think is the most important!
+     </h1>
+     <p>
+
+     </p>
+</div>
+<img style="float:left;" class="letterPhoto" src="/img/proposal/thirteen.png" id="picTwo">
+<div style="float:right;">
+    <h1>
+        When I look at you, I see everything I care most deeply about and find the most beautiful in this world. You embody all of the most valuable ideals in my mind, my heart, my soul and my body. I feel myself being drawn to you with every vibration of life that washes over me, like the deep wells of compassion in your eyes whose waves immerse me in your love and gentleness.
+        
+    </h1>
+    <p>
+
+    </p>
+</div>
+
+<img style="float:right;" class="letterPhoto" src="/img/proposal/one.png" id="picThree">
+<div style="float:left;">
+    <h1>
+Our love is strong, and together, we can set right our relationship to be what we want it to be. I deeply desire a life with you, and strive to constantly evolve to be the person I wish to be seen as by you. Words can only mean so much without expressing otherwise.  
+These words may need deeper expression for you to see them as true, but -to me- my life will be well spent if it is in efforts of expressing my love for us being together, together no matter what it takes.
+    </h1>
+    <p>
+
+    </p>
+</div>
+
+<img style="width: 100%; object-fit: cover; height: 800px;" class="letterPhoto" src="/img/proposal/eleven.jpg">
+<div>
+    <h1>
+        I want all my adventures to be with you by my side. To deserve that possibilty, I recognize there is a lot of work to be done because we'd need to be prepared for challenges in our paths. Whatever issues I can reconcile to make you more comfortable joining together, I promise I will look for pride fighting with all my strength to reconcile. 
+        I feel like I've been going to battle with all I have lately to overcome the challenges from our past, and to show you that I believe we are meant for each other. When you think you're ready, I'd like to offer that we get together and do something fun on a day you're looking to adventure with me once again. 
+    </h1>
+</div>
+<img src="/img/proposal/sixteen.jpg" style="object-fit: cover; width: 100%; height: auto;">
+
+<div>
+    <h1 style="font-family: FangSong; font-size: 1.5em;">
+        Below, I've laid out some suggestions for dates I thought might be good for us. If you have any ideas that'd be more desirable for you, I'd love to hear them and definitely see myself being excited for whatever you'd like to plan! <br>
+        If you make selections below and send me a screenshot of the next page, it will help me prepare, also feel free to just text or call or talk to me about this however you'd like.
+
+    </h1>
+    <p style="font-family: Maiandra GD; font-size: 0.75em;">
+        **Last Resort seems to be pretty flexible with scheduling. Any dates that would work well for you I'd feel pretty safe about having available if I know over a week ahead of time.<br>
+        If you aren't sure which date might be best for you, feel free to select multiple dates! Of course, please don't feel rushed to do this; I understand if you feel you need to test my patience or just can't find available time for me**
+    </p>
+</div>
+
+<div>
+
+<input type="datetime-local" name="date">
+<h1 onclick=>Add Date</h1>
+
+</div>
+
+     
+
+
+</body>
+
+</main>
+</html>

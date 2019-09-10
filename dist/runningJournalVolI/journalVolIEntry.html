@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<main>
+
+
+<head>
+
+
+
+
+<style>
+body{
+    background-color: rgb(179, 199, 127);
+}
+
+h1{
+ background-color: rgb(57, 85, 70);
+ background-image: linear-gradient(to right, rgb(43, 63, 52), rgb(197,224,180) 74%, rgb(84,130,53) 83%, rgb(56,87,35) 100%);
+ font-family: "Georgia";
+ font-size: 3vw;
+ color: rgb(255, 230, 153);
+ text-shadow: 5px 5px 10px;
+ border-radius: 50px 50px 0% 0%;
+ text-align: center;
+}
+
+ul{
+background-color: rgb(90, 57, 3);
+width: 80vw;
+min-height: 20vh;
+list-style-type: none;
+text-align: start;
+padding: 5px;}
+
+ul li{
+background: rgb(247,247,195);
+padding:5px;
+font-family: Lucida;
+color: rgb(48,127,152);
+font-size:150%;
+}
+
+p{
+color:rgb(252, 206, 0);
+text-align:center;
+font-family: Gabriola;
+font-size:1.5em;}
+
+
+
+.bookCover{
+    font-family: "Georgia";
+ font-size: 1.5vw;
+ color: rgb(6, 121, 197);
+ text-shadow: 5px 5px 10px;
+ text-align: center;
+}
+.imageHolder{
+    float:right;
+    max-width: 20vw;
+    height: auto;
+    border-radius: 30px;
+}
+.pagination{ 
+display: none;
+}
+.mediaLogos{
+    width: 29px;
+    height: 29px;
+    padding: 15px;
+    margin: auto;
+}
+.socialMediaBlock{
+    background-color: rgb(65, 34, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    vertical-align:bottom;
+}
+
+
+
+
+#feather{
+    max-width:10vw; 
+    height:auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    opacity:0.4; 
+    border-radius: 50%; 
+    position: fixed; 
+    top: 8.2%;
+    left: 8.2%;
+}
+#feather:hover{
+    opacity:1;
+}
+#featherCollapse{
+    opacity:0.4; 
+    border-radius: 50%; 
+    position: fixed; 
+    top: 8.2%;
+    left: 8.2%;
+}
+#progressDay{
+font-size: 1.7em;
+font-weight: bold
+}
+#pagination{
+    display:none;
+    background-color: rgb(255, 191, 113);
+}
+   </style>
+
+</head>
+
+
+<body>
+
+
+<a href="https://chieftruth.com"><img style="width: 10%; height: auto; min-width: 43px; min-height:43px; float: right; border-radius:25% 0% 25% 25%;" src="/img/icons/LogoOne.png"></a>
+        <h1>
+        ChiefTruth Projects
+        </h1>
+<div class="bookCover">
+<h2>
+The ChiefTruth Running Journal
+</h2>
+</div>
+
+<div>
+<img id="feather" src="/img/featherInvert.png" alt="Feather. Click for access to all journal entries."  onclick='document.getElementById("pagination").style.opacity="0.8"; document.getElementById("pagination").value=0;'>
+</div>
+<div>
+    <input id="pagination" onchange="entrySelector()" style="display: block; color: cornflowerblue; position: fixed; left: 120px;" type="number" name="entryDestination" value="0" min="0" max="100">
+</div>
+<!--<div onchange="entrySelector()">
+<p id="entryDisplay" style="display: block; position: fixed; left: 120px; color: cornflowerblue; background-color: bisque; opacity: 0.5; border-radius: 1em;">
+    Entries of journal
+    Go to Entry: <span id="userEntry"></span>
+</p>
+</div>-->
+
+
+
+
+    <img id="imageOneEntry" class="imageHolder" src="">
+   <ul>
+        <li></li>
+        <p id="progressDay"></p>
+        <li>Date</li>
+        <p id="dateEntry">First Volume of Journal Available December 2019!</p>
+        <li>Weather</li>
+        <p id="weatherEntry"></p>
+        <li>Mileage</li>
+        <p id="mileageEntry"></p>
+        <li>Additional Notes</li>
+        <p id="additionalNotesEntry"></p>
+    </ul>
+ 
+
+
+<ul style="float:right; clear:left;">
+        <li>Run Description</li>
+        <p style="text-align:left;" id="runDescriptionEntry"></p>
+        <li>Scheduled Day</li>
+        <p style="text-align: left;" id="scheduledDayEntry"></p>
+        <li>Unscheduled Day</li>
+        <p style="text-align: left;" id="unscheduledDayEntry"></p>
+        <li>Health</li>
+        <p style="text-align: left;" id="healthEntry"></p>
+</ul>
+
+<!--<div>
+    <h2>
+        Two Day Page
+    </h2>
+</div>
+</div>
+
+<div>
+<h1>Conclusion</h1>
+</div>
+-->
+    <img id="imageTwoEntry" src="" style="float: left;" class="imageHolder">
+    
+<script src="/runningJournalVolI/journalScript.js">
+</script>
+</body>
+
+
+</main>
+</html>

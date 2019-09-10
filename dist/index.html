@@ -5,10 +5,21 @@
 <main>
 
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145416286-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145416286-1');
+</script>
 
 <title>
 ChiefTruth
 </title>
+
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Handlee&display=swap" rel="stylesheet">
 
 <meta name="description" content="Hub for activities and endeavors under the brand Chief Truth">
 <meta name="keywords" content="calendar, task manager, healthy, health, habits, healthy habits, organizer">
@@ -16,149 +27,187 @@ ChiefTruth
 <meta charset="UTF-8"> 
 
 <style>
+body{
+background-color: rgb(179, 199, 120);
+}
+    
+h1{
+ background-color: rgb(57, 85, 70);
+ background-image: linear-gradient(to right, rgb(43, 63, 52), rgb(197,224,180) 74%, rgb(84,130,53) 83%, rgb(56,87,35) 100%);
+ font-family: "Georgia";
+ font-size: 3vw;
+ color: rgb(255, 230, 153);
+ text-shadow: 5px 5px 10px;
+ border-radius: 50px 50px 0% 0%;
+ text-align: center;
+}
+
+h2{
+text-align: end;
+color: rgb(223, 171, 0);
+font-size: 2.5vw;
+font-family: 'Handlee', cursive;
+}
+
+p{
+    color: teal;
+    font-size: 2vw;
+    font-family: 'Gochi Hand, cursive';
+    text-indent: 50px;
+    word-spacing: 2px;
+}
+
+img{
+    border-radius: 20%;
+}
+
 .genericBlock{
 display: block;
 margin: auto;
-border-style: groove;
-border-color: red;
-text-align: center;
 }
-.genericBlockVertical{
 
+.centeredBlock{
+    display: block;
+    margin: auto;
+    text-align: center;
 }
+
+.mediaLogos{
+    width: 29px;
+    height: 29px;
+    padding: 15px;
+    margin: auto;
+}
+.socialMediaBlock{
+    background-color: rgb(65, 34, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    vertical-align:bottom;
+}
+.projectEntrance{
+    justify-content: center;
+    background-color: teal;
+    -webkit-animation-name: flowingBackground;
+    -webkit-animation-duration: 5s;
+    animation-name: flowingBackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: none;
+}
+
+@-webkit-keyframes flowingBackground{
+    from{background-color: teal;}
+    to{background-color: violet;}
+}
+
+@keyframes flowingBackground{
+    from{background-color: teal;}
+    to{background-color: violet;}
+}
+
+#woodGradient{
+    background-image: linear-gradient( rgb(36,18,4), rgb(87,64,41), rgb(112,125,59), rgb(57,32,8));
+    text-align:end;
+}
+#aleciaEntrance{}
+
 </style>
 
 </head>
 <body>
 <div class="genericBlock">
+        <a href="https://chieftruth.com"><img style="width: 10%; height: auto; min-width: 43px; min-height:43px; float: left; border-radius:25% 0% 25% 25%;" src="img/icons/LogoOne.png"></a>
 <h1>
 ChiefTruth Projects
 </h1>
 </div>
 <div class="genericBlock">
 <h2>
-What is this page about?
+Welcome Truthseekers,
 </h2>
 <p>
-Welcome! I'm launching my own website, and you can help. This is the very early stages of something I hope brings joy, beauty and goodness to the world.
-My name is Caelan, but you can call me Cale or "ChiefTruth". For those wondering, I'll share more about my name eventually, but I have many exciting adventures planned for the road ahead.
-For now though, I'm working on a project very close to my heart, and this is where I could really use your help! Check out my first project below, and if it interests you, keep checking back
-for updates very soon! If this first project doesn't suit you, I do hope you come back as my website grows and thank you for visiting ChiefTruth Projects!
+My name is Caelan, but you can call me Cale or "ChiefTruth". I have many exciting adventures planned for the road ahead. <!--For those who may be wondering - I'll share more about my name when it's a bit more relevant.-->
+This is the early stages of something I hope brings joy, beauty and goodness to the world.
+For now, I'm working on a project very close to my heart. If my first project below interests you, please check back often
+for updates. I hope you will join me as this site grows and thank you for visiting ChiefTruth Projects!
 </p>
 </div>
-<div class="genericBlock" style="background-color: white; border-color:red;">
-<h2>
+<div class="genericBlock" style="background-color: rgb(72, 121, 72);">
+<a href="/runningJournalVolI/journalVolIEntry.html"><img style="width: 20%; height: auto; float: right;" src="/img/IMG_20190812_152659529.jpg" alt="Feather">
+<h2 id="woodGradient">
 ChiefTruth Running Journey Journal
-</h2>
+</h2></a>
 </div>
-<div class="genericBlock">
-<p>
-Thanks for checking out this project; I look forward to learning so much from it and hope it will help me turn this site into something wonderful.
-Below, you'll find excerpts from the journal I'm keeping in which I've set up some personal running goals for a 100 day period. This running project
-started in early July and will extend through late October. The journal will be fully available in December 2019! I hope you will join me on this
-journey, and enjoy learning more about some of my runs such as the "25th Day 25 Miles". Along with all kinds of daily recordings I thought might be relevant
-to my running performance, I've also been taking pictures which may be a shot of my routes or just some inspiration for that day. All those pictures, daily recordings,
-and more will be made available in the full journal.
+
+
+<p style="font-style: italic;">
+Experience the daily life of an endurance runner! This journal covers my 100 day journey into the world of ultra-marathons.
+At approximately twenty-five day intervals, I attempt a 25+ mile run.
+No bib-no chorales-no finish line-no pressure to go fast; just piles of miles to run and my will to transport my body with my legs for long distances. 
+</p>
+<p style="font-style: italic;">While there likely could be a day that I race again, for this project, my only intention is to run twenty-five miles on four separate days within a 100 day period. 
+This is primarily being used as a way to introduce myself to ultramarathons, which are 26.219 miles. At least one out of the four of my attempts will be technically an ultra.
+</p>
+ <p style="font-size:1.2em; color: rgb(0, 162, 255)">
+The feather above will get you started on this adventure!
 </p>
 
-<img src="../dist/img/creek.jpg" alt="Creek">
 
+
+
+<button type="button" class="projectEntrance" onclick='document.getElementById("aleciaEntrance").style.display="block";'>
+<img  style="width: 50%; height: auto; float: auto;" src="/img/proposal/entrance.jpg" alt="Alecia Click Here">
+</button>
+
+<div style="display: none;" id="aleciaEntrance">
+<p>Access to this area of ChiefTruth Projects requires that you enter the correct date. Enter in the format: "mmddyy".</p>
+    <form name="entranceForm" action="/romance/proposal/specialPage.html" id="key">
+        <input name="anniDate" type="password" id="passcode">
+        <input value="This is the Correct Date" name="submit" type="submit" onclick="entryFunction()">
+    </form>
 </div>
-<div class="genericBlock">
+
+<div class="centeredBlock">
 <h1>
 Connect With ChiefTruth
 </h1>
-<h3>
-If you think you might be interested in purchasing or receiving the full journal, please reach out to me. I'd love to hear your feedback!
-<h6>
-email: admin@chieftruth.com
-</h6>
+<p>
+   Learn more about upcoming projects! <br>
+    email:<a href="mailto:admin@chieftruth.com?Subject=How%20Can%20I%20Get%20a%20Free%20Copy%20of%20Your%20Journal?&body=Please%20provide%20your%20preferred%20method%20of%20contact.">admin@chieftruth.com</a>
+</p>
 </div>
-<!--
+
+<div class="socialMediaBlock">
+    <div>
+<a href="https://www.facebook.com/ChiefTruthP/?eid=ARDy-NlwVdYGN-e9P3VYkHibcPmYyxLw4z2rplUcbEE6EZcaWI6oFR7NErBKW-FNgIQCJaurv-uCcgBo"><img class="mediaLogos" src="/img/icons/f_logo_RGB-Blue_1024.png" alt="Facebook Profile"></a>
+    </div>
+    <div>
+        <!-- iNaturalist. Available from https://www.inaturalist.org.08/15/2019 -->
+        <a href="https://www.inaturalist.org/people/1879089"><img class="mediaLogos" src="/img/icons/iNaturalist.png" alt="iNaturalist Profile"></a>
+    </div>
+    <!--<div>
+<a href="https://www.instagram.com/calepirtle/"><img class="mediaLogos" alt="Instagram Profile" style="background-color: plum;" src="/img/icons/glyph-logo_May2016.png"></a>
+    </div>-->
 <div>
-Pages
-
-	<h1>
-	Homepage
-	</h1>
-
-
-
-	<h1>
-	Admin Panel
-		<h2>
-		Passwords
-		</h2>
-		<h2>
-		Transactions and Wallet
-		</h2>
-			<h3>
-			Transactions
-			</h3>
-			<h3>
-			Wallet
-			<h3>
-				<h4>
-				PayPal
-				</h4>
-				<h4>
-				Purchases & Expenses
-				</h4>
-				<p>
-				Domain Purchase: $33.88 includes 2 year domain, WhoisGuard, free trial on private email, and Positive SSL
-				KronosBlade Janus Watch: $155.00
-				</p>
-				<h4>
-				Income and Budget
-				</h4>
-	</h1>
-
-	<h1>
-	Events Page
-	</h1>
-
-	<h1>
-
-	</h1>
+     <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:calepirtle&size=basic&theme=dark&show-count=0" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 </div>
-
 <div>
-Design
+    <a href="https://www.patreon.com/bePatron?u=17150833" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+</div>
 </div>
 
-<div>
-Commerce
-</div>
 
-<div>
-Marketing
-</div>
-
-<div>
-Analytics
-</div>
-
-<div>
-Settings
-</div>
-
-<div>
-Help
-</div>
-
-<div>
-User Profiles
-	<h1>
-	Admin
-	</h1>
-	<h2>
-	User
-	</h2>
-	<p>
-	Different profile types have different permissions within the site. 
-</div>
--->
+<script src="/romance/proposal/aleciaScript.js"></script>
 </body>
 </main>
-
 </html>
+
+
+
+
+
+
+

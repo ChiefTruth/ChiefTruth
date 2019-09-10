@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<main>
+
+
+<head>
+
+
+
+
+<style>
+body{
+    background-color: rgb(179, 199, 127);
+}
+
+h1{
+ background-color: rgb(57, 85, 70);
+ background-image: linear-gradient(to right, rgb(43, 63, 52), rgb(197,224,180) 74%, rgb(84,130,53) 83%, rgb(56,87,35) 100%);
+ font-family: "Georgia";
+ font-size: 3vw;
+ color: rgb(255, 230, 153);
+ text-shadow: 5px 5px 10px;
+ border-radius: 50px 50px 0% 0%;
+ text-align: center;
+}
+
+ul{
+background-color: rgb(90, 57, 3);
+width: 80vw;
+min-height: 20vh;
+list-style-type: none;
+text-align: start;
+padding: 5px;}
+
+ul li{
+background: rgb(247,247,195);
+padding:5px;
+font-family: Lucida;
+color: rgb(48,127,152);
+font-size:150%;
+}
+
+p{
+color:rgb(252, 206, 0);
+text-align:center;
+font-family: Gabriola;
+font-size:1.5em;}
+
+
+
+.bookCover{
+    font-family: "Georgia";
+ font-size: 1.5vw;
+ color: rgb(6, 121, 197);
+ text-shadow: 5px 5px 10px;
+ text-align: center;
+}
+.imageHolder{
+    float:right;
+    max-width: 20vw;
+    height: auto;
+    border-radius: 30px;
+}
+.pagination{ 
+}
+.mediaLogos{
+    width: 29px;
+    height: 29px;
+    padding: 15px;
+    margin: auto;
+}
+.socialMediaBlock{
+    background-color: rgb(65, 34, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    vertical-align:bottom;
+}
+
+
+
+
+#feather{
+    max-width:10vw; 
+    height:auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    opacity:0.4; 
+    border-radius: 50%; 
+    position: fixed; 
+    top: 8.2%;
+    left: 8.2%;
+}
+#feather:hover{
+    opacity:1;
+}
+#featherCollapse{
+    opacity:0.4; 
+    border-radius: 50%; 
+    position: fixed; 
+    top: 8.2%;
+    left: 8.2%;
+}
+#progressDay{
+font-size: 1.7em;
+font-weight: bold
+}
+   </style>
+
+</head>
+
+
+<body>
+
+
+<a href="https://chieftruth.com"><img style="width: 10%; height: auto; min-width: 43px; min-height:43px; float: right; border-radius:25% 0% 25% 25%;" src="/img/icons/LogoOne.png"></a>
+        <h1>
+        ChiefTruth Projects
+        </h1>
+
+<!--<div>
+<h1>Introduction</h1>
+</div>
+-->
+<form>
+<img id="feather" type="image" src="./feather.png" alt="Feather. Click for access to all journal entries." onclick="entrySelection()">
+</form>
+
+
+</div>
+<div class="bookCover">
+<h2>
+The ChiefTruth Running Journey Journal
+</h2>
+</div>
+
+    <img class="imageHolder" src="/img/dayTwentyFiveStart.jpg">
+   <ul>
+        <li></li>
+        <p id="progressDay"></p>
+        <li>Date</li>
+        <p>Available on Journal Release</p>
+        <li>Weather</li>
+        <p>Sunny</p>
+        <li>Mileage</li>
+        <p>14 Miles</p>
+        <li>Additional Notes</li>
+        <p>I'm so hungry and sleepy</p>
+    </ul>
+ 
+
+
+<ul style="float:right; clear:left;">
+        <li>Run Description</li>
+        <p style="text-align:left;">I ran this far it took me this long this was my pace i felt like this i ran this way because this reason</p>
+        <li>Scheduled Day</li>
+        <p style="text-align: left;">I worked here or did this and went to this place</p>
+        <li>Unscheduled Day</li>
+        <p style="text-align: left;">I took a nap and ate around these times and did these things because they needed to be done, and these things for fun.</p>
+        <li>Health</li>
+        <p style="text-align: left;">I ate these things and did these things for my health and I slept during these times.</p>
+</ul>
+
+<!--<div>
+    <h2>
+        Two Day Page
+    </h2>
+</div>
+</div>
+
+<div>
+<h1>Conclusion</h1>
+</div>
+-->
+    <img src="/img/creek.jpg" style="float: left;" class="imageHolder">
+    
+<script src="/drafting/journalScript.js">
+</script>
+</body>
+
+
+</main>
+</html>
